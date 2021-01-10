@@ -1,0 +1,167 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+nav
+{
+    background: steelblue;
+    height: 80px;
+    width: 100%;
+    position: sticky;
+    object-position: top;
+}
+label.logo
+{
+    color: white;
+    font-size: 36px;
+    line-height: 80px;
+    padding: 0 96px;
+    font-weight: bold;
+    color: orange;
+}
+span
+{
+    color: aqua;
+}
+nav ul
+{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li
+{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a
+{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+a.active,a:hover
+{
+    background: #1b9bff;
+    transition: .5s
+}
+.checkbtn
+{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check
+{
+    display: none;
+    float:right;
+}
+@media (max-width: 100px)
+{
+    label.logo{
+        font-size: 36px;
+        padding-left: 45px;
+    }
+    nav ul li a{
+        font-size: 13px;
+    }
+    
+    
+}
+@media (max-width: 1190px)
+{
+    .checkbtn{
+        display: block;
+    }
+    label.logo{
+        font-size: 32px;
+        padding-left: 41px;
+    }
+    .span
+    {
+        font-size: 13px;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover,a.active{
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    
+}
+/*-----Services------*/
+#services
+{
+    background-color: dimgray;
+    text-align: center;
+    
+}
+.ourservices
+{
+    
+}
+.col-md-4
+{
+    position: relative;
+}
+.icon
+{
+
+}
+h3
+{
+
+}
+.ourservices>p
+{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
